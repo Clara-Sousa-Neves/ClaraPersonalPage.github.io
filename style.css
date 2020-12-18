@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+    max-width: 960px;
+    height: auto;
+    width: 90%;
+    margin: 60px auto;
+}
+
+header img {
+    margin: 20px 30px 40px 0;
+    border-radius: 50%;
+    background: #332500;
+    border: 6px solid #332500;
+    float: left;
+}
+
+header .right {
+    float: left;
+    padding-top: 44px;
+}
+
+h1 {
+    color: #cc9900;
+    font-family: "cookie";
+    font-size: 50px;
+    line-height: 30px;
+    margin: 20px 0 5px;
+    font-weight: 300;
+}
+
+h2 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2;
+    display: inline;
+    font-weight: bold;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+section {
+    display: block;
+    padding-top: 200px;
+}
+
+#intro {
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin: 20px 0;
+    line-height: 2
+}
+
+#intro a {
+    color: black;
+    background-color: #cc9900;
+    text-decoration: underline;
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin: 20px 0;
+    line-height: 2
+}
+
+.hire_text {
+    color: #cc9900;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin: 20px 0;
+    line-height: 2;
+    opacity: .7;
+}
+
+.button_hire {
+    background-color: #cc9900;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 18px;
+    border-radius: 50px 20px;
+}
+
+.button_hire a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.contacts {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 2;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: #cc9900;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+p .mail .links {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
