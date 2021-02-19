@@ -51,6 +51,16 @@ section {
     padding-top: 200px;
 }
 
+p#intro::first-letter {
+    color: #cc9900;
+    font-size: x-large;
+}
+
+p.text::first-letter {
+    color: #cc9900;
+    font-size: x-large;
+}
+
 #intro {
     color: white;
     font-size: 18px;
